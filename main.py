@@ -1,4 +1,6 @@
+# importing the database (SQLITE3 for this case ->lightweight)
 import sqlite3
+# importing the time module 
 import time
 
 
@@ -259,4 +261,5 @@ try:
     main()  
 
 except KeyboardInterrupt:
+
     print("Program interupted.")         
